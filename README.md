@@ -6,4 +6,4 @@
 </p>
 <p>The level creation with tilesets and monogame can be used with this project and some alterations on the json file generated with the Tiled level editor.</p>
 **Important**
-<p>Make sure that the json file does not use the global id in the layers of the editor. To do so, generate each json file from each layer individualy and finaly copy the data information and paste it on the main json file</p>
+<p>Make sure to use only one tileset for every world</p>
