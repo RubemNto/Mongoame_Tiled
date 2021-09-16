@@ -10,7 +10,7 @@
 
 2. In the Assets folder, create two new folders. ***"Json"*** and ***"Tilesets"***
 
-3. Import your Tilesets used for each of the layers in your world. Remember to use one tileset per each layer and to name them acourding to the layer name.
+3. Import your Tilesets used for each of the layers in your world in the Tileset folder and the Json file at the Json folder. Remember to use one tileset for each layer and to name them according to the layer name.
 
    Example
 
@@ -20,7 +20,7 @@
    |Houses|Houses.png|
 4. Build imported items with Monogame MGCB.
 5. Add **Map.cs** and **Layer.cs** scripts to your project.
-6. Create new private ***Map*** variable in **Game1.cs**.
+6. Create new ***Map*** variable in **Game1.cs**.
 7. In the Initialize function, instantiate the map with a new object of type **Map**, give the path for the json file, the current Game1 class and the tileset width size.
 
        protected override void Initialize()
@@ -29,7 +29,7 @@
             base.Initialize();
         }
         
-8. Add in the Draw function of the Game1.cs file, the map DrawFunction and add a parameter of type spritebatch.
+8. Add in the Draw function of the Game1.cs file, the map Draw function and add a parameter of type spritebatch.
 
         protected override void Draw(GameTime gameTime)
         {
